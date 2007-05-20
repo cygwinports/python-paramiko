@@ -1,5 +1,5 @@
 category: Python
-requires: python pycrypto
+requires: python python-crypto
 sdesc: "Python SSH2 protocol module"
 ldesc: "paramiko is a module for python 2.2 (or higher) that implements 
 the SSH2 protocol for secure (encrypted and authenticated) connections 
