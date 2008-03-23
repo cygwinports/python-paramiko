@@ -10,13 +10,13 @@ open arbitrary channels to remote services across the encrypted tunnel
 -- this is how sftp works, for example.
 
 Runtime requirements:
-  python-2.5.1-1
+  python-2.5.1-3
   python-crypto-2.0.1-2
 
 Build requirements:
-  cygwin-1.5.24-2
-  cygport-0.3.1-1
-  python-2.5.1-1
+  cygwin-1.5.25-7
+  cygport-0.3.8-1
+  python-2.5.1-3
 
 Canonical website:
   http://www.lag.net/paramiko/
@@ -33,25 +33,25 @@ Language:
 -------------------------------------------
 
 Build instructions:
-  unpack python-paramiko-1.6.4-X-src.tar.bz2
+  unpack python-paramiko-1.7.2-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./python-paramiko-1.6.4-X.cygport all
+  cygport ./python-paramiko-1.7.2-X.cygport all
 
 This will create:
-  /usr/src/python-paramiko-1.6.4-X-src.tar.bz2
-  /usr/src/python-paramiko-1.6.4-X.tar.bz2
+  /usr/src/python-paramiko-1.7.2-X-src.tar.bz2
+  /usr/src/python-paramiko-1.7.2-X.tar.bz2
 
 -------------------------------------------
 
 Files included in the binary package:
 
-  /usr/lib/python2.5/site-packages/paramiko-1.7-py2.5.egg-info/PKG-INFO
-  /usr/lib/python2.5/site-packages/paramiko-1.7-py2.5.egg-info/SOURCES.txt
-  /usr/lib/python2.5/site-packages/paramiko-1.7-py2.5.egg-info/dependency_links.txt
-  /usr/lib/python2.5/site-packages/paramiko-1.7-py2.5.egg-info/requires.txt
-  /usr/lib/python2.5/site-packages/paramiko-1.7-py2.5.egg-info/top_level.txt
+  /usr/lib/python2.5/site-packages/paramiko-1.7.2-py2.5.egg-info/PKG-INFO
+  /usr/lib/python2.5/site-packages/paramiko-1.7.2-py2.5.egg-info/SOURCES.txt
+  /usr/lib/python2.5/site-packages/paramiko-1.7.2-py2.5.egg-info/dependency_links.txt
+  /usr/lib/python2.5/site-packages/paramiko-1.7.2-py2.5.egg-info/requires.txt
+  /usr/lib/python2.5/site-packages/paramiko-1.7.2-py2.5.egg-info/top_level.txt
   /usr/lib/python2.5/site-packages/paramiko/__init__.py
   /usr/lib/python2.5/site-packages/paramiko/__init__.pyc
   /usr/lib/python2.5/site-packages/paramiko/__init__.pyo
@@ -157,13 +157,16 @@ Files included in the binary package:
   /usr/lib/python2.5/site-packages/paramiko/win_pageant.py
   /usr/lib/python2.5/site-packages/paramiko/win_pageant.pyc
   /usr/lib/python2.5/site-packages/paramiko/win_pageant.pyo
-  /usr/share/doc/Cygwin/python-paramiko-1.7.README
-  /usr/share/doc/python-paramiko-1.7/LICENSE
-  /usr/share/doc/python-paramiko-1.7/README
+  /usr/share/doc/Cygwin/python-paramiko-1.7.2.README
+  /usr/share/doc/python-paramiko-1.7.2/LICENSE
+  /usr/share/doc/python-paramiko-1.7.2/README
 
 ------------------
 
 Port Notes:
+
+----- version 1.7.2-1 -----
+Version bump.
 
 ----- version 1.7-1 -----
 Version bump, built for python-2.5.
