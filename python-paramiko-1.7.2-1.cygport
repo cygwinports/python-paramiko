@@ -1,6 +1,0 @@
-ORIG_PN=paramiko
-inherit distutils
-
-DESCRIPTION="Python SSH2 protocol support"
-HOMEPAGE="http://www.lag.net/paramiko/"
-SRC_URI="http://www.lag.net/paramiko/download/${ORIG_PN}-${PV}.tar.gz"
